@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-day_df = pd.read_csv("day_clean.csv")
-hour_df = pd.read_csv("hour_clean.csv")
+day_df = pd.read_csv("dashboard/day_clean.csv")
+hour_df = pd.read_csv("dashboard/hour_clean.csv")
 
 # Filtering
 day_df["dateday"] = pd.to_datetime(day_df["dateday"])
